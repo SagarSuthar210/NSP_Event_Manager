@@ -1,0 +1,9 @@
+# To run in PowerShell:
+java -cp ".;mysql-connector-j-26.7.0.jar" EventManagerApp.java
+
+# To run in Command Prompt (CMD):
+java -cp ".;mysql-connector-j-26.7.0.jar" EventManagerApp.java
+
+# Or compile first and run:
+javac -cp ".;mysql-connector-j-26.7.0.jar" DatabaseStorageManager.java EventManagerApp.java
+java -cp ".;mysql-connector-j-26.7.0.jar" EventManagerApp
